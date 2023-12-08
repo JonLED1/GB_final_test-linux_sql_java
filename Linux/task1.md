@@ -5,6 +5,26 @@
 Пример конечного вывода после команды “ls” :
 Desktop Documents Downloads  HumanFriends.txt  Music  PackAnimals.txt  Pets.txt  Pictures  Videos
 
+`cat > Pets.txt`
+
+![Alt text](./images/image.png)
+
+`cat > PackAnimals.txt`
+
+![Alt text](./images/image1.png)
+
+`cat Pets.txt PackAnimals.txt > newfile.txt`
+
+`cat newfile.txt`
+
+![Alt text](./images/image2.png)
+
+`mv newfile.txt HumanFriend.txt`
+
+`ls`
+
+![Alt text](./images/image3.png)
+
 2. Работа с директориями в Linux
    - Создать новую директорию и переместить туда файл "Human Friends".
 
