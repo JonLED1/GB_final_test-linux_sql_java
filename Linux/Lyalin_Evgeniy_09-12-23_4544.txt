@@ -1,0 +1,586 @@
+    1  dir
+    2  sudo apt update 
+    3  sudo apt upgrade 
+    4  sudo apt install mc
+    5  mc
+    6  clerar
+    7  clear
+    8  python
+    9  python3
+   10  mc
+   11  sudo apt install openss-server
+   12  sudo apt install openssh-server
+   13  ip
+   14  ip -s
+   15  shutdown 
+   16  mc
+   17  exit
+   18  ip a
+   19  systemctl status ssh
+   20  sudo apt install gcc make perl
+   21  sudo usermod -aG vboxsf jon
+   22  uname
+   23  uname -a
+   24  mc
+   25  sudo
+   26  ls
+   27  cd /home
+   28  sudo su
+   29  ls
+   30  cd ./jon/
+   31  ls
+   32  cd /
+   33  ls
+   34  cd /home/
+   35  cd
+   36  cd /
+   37  cd
+   38  cd ~
+   39  ls -al
+   40  ls
+   41  ls -A
+   42  ls -l
+   43  ls /?
+   44  ls -h
+   45  ls -help
+   46  ls --help
+   47  cd /proc/
+   48  ls -al
+   49  cat cpuinfo 
+   50  ls -al
+   51  cd /dev/
+   52  ls -al
+   53  cd /run/
+   54  ls -al
+   55  cd
+   56  ls
+   57  ls -s
+   58  ls -a
+   59  pwd
+   60  ls -a
+   61  ls -al
+   62  ls -l
+   63  ls -al
+   64  man ls
+   65  pwd
+   66  mkdir test
+   67  ls
+   68  ll
+   69  cd ./test/
+   70  ls
+   71  ll
+   72  cat > testfile
+   73  ll
+   74  l
+   75  cp testfile testfile2
+   76  l
+   77  cat testfile2
+   78  cd./
+   79  cd ./
+   80  cd ../
+   81  cd ..
+   82  l
+   83  ll
+   84  cd
+   85  l
+   86  clear
+   87  cd ./test/
+   88  ls
+   89  touch 1
+   90  ls
+   91  mn 1 2
+   92  rm 1 2
+   93  rm
+   94  rm --help 
+   95  cat /etc/passwd
+   96  nano /etc/passwd
+   97  cat /etc/group
+   98  cat /etc/shadow
+   99  sudo cat /etc/shadow
+  100  sudo useradd -s /bin/bash -m -d /home/testuser testuser
+  101  tail /etc/passwd
+  102  sudo tail /etc/shadow
+  103  sudo adduser testuser2
+  104  tail /etc/passwd
+  105  sudo tail /etc/shadow
+  106  passwd
+  107  passwd testuser
+  108  sudo passwd testuser
+  109  ll /home/
+  110  ll /home/testuser
+  111  sudo ll /home/testuser
+  112  ll /home/testuser
+  113  sudo ls /home/testuser
+  114  sudo ls -al /home/testuser
+  115  logout
+  116  su
+  117  sudo usermod -aG adm testuser
+  118  od
+  119  id
+  120  sudo id testuser
+  121  sudo userdel testuser2
+  122  sudo ls -al /home/testuser2
+  123  sudo userdel testuser2
+  124  sudo chage testuser 
+  125  sudo groupadd testgroup
+  126  sudo groupdel testgroup
+  127  su
+  128  sudo
+  129  su
+  130  su testuser
+  131  passwd testuser
+  132  sudo passwd testuser
+  133  su testuser
+  134  sudo su
+  135  exit
+  136  ll
+  137  ls
+  138  cat
+  139  id
+  140  gid
+  141  uid
+  142  sudo su
+  143  useradd
+  144  adduser
+  145  sudo adduser
+  146  sudo adduser user1
+  147  useradd user
+  148  sudo useradd user
+  149  cat /bin/passwd 
+  150  sudo cat /bin/passwd 
+  151  cat /etc/passwd
+  152  deluser
+  153  sudo deluser user1
+  154  sudo deluser user
+  155  cat /etc/passwd
+  156  sudo deluser testuser
+  157  cat /etc/passwd
+  158  more /etc/passwd
+  159  cat /etc/group
+  160  sudo cat /etc/shadow
+  161  ll
+  162  cat file
+  163  > file1
+  164  ls
+  165  ll
+  166  ls
+  167  ll
+  168  chmod --help 
+  169  ls -l
+  170  mv file1 
+  171  del file1 
+  172  mv -r file1 
+  173  mv --help 
+  174  mv file1 
+  175  mv file1
+  176  rm file1
+  177  ls
+  178  cd ./test/
+  179  ll
+  180  rm ./*
+  181  ll
+  182  rm -f ./*
+  183  ls
+  184  ll
+  185  ll /tmp/
+  186  umask
+  187  ll
+  188  > f1
+  189  ll
+  190  sudo apt-get install leocad
+  191  sudo apt-get install gnome tweaks
+  192  sudo apt-get install gnometweaks
+  193  sudo apt-get install gnome
+  194  ls -l
+  195  ll
+  196  ls
+  197  ls -s
+  198  ls
+  199  la
+  200  ls -l
+  201  sslslslslslslslsl
+  202  lll
+  203  exit
+  204  history 
+  205  ls -l
+  206  cat /etc/passwd
+  207  sudo userdel --help 
+  208  sudo userdel -r -f user1
+  209  sudo userdel -r -f user2
+  210  cat /etc/passwd
+  211  ls /home/
+  212  ls
+  213  ls ./snap/
+  214  zip
+  215  apt --help
+  216  apt moo
+  217  cat /etc/apt/sources.list
+  218  crontab 
+  219  crontab --help
+  220  apt list 
+  221  dpkg -l
+  222  dpkg -list
+  223  crontab -r
+  224  sanp
+  225  snap
+  226  snap list
+  227  crontab -e
+  228  crontab -l
+  229  echo 
+  230  crontab -e
+  231  nginx
+  232  sudo apt ins
+  233  mc
+  234  sudo apt install nginx
+  235  ss -nlp
+  236  ss -ntlp
+  237  history 
+  238  ss -ntlp
+  239  cd /etc/nginx/
+  240  ll
+  241  nano nginx.conf 
+  242  sudo nginx -t
+  243  systemctl --help 
+  244  sudo systemctl status nginx
+  245  clear
+  246  ll
+  247  nano sites-enabled/default 
+  248  sudo apt install apache2
+  249  systemctl status apache2
+  250  sudo systemctl stop nginx.service 
+  251  sudo systemctl start apache2
+  252  ss -ntlp
+  253  sudo ss -ntlp
+  254  sudo systemctl stop nginx
+  255  sudo systemctl start apache2
+  256  cd /etc/apache2/
+  257  ll
+  258  nano apache2.conf 
+  259  sudo systemctl stop apache2
+  260  sudo nano ports.conf 
+  261  sudo apachectl -
+  262  sudo apachectl -t
+  263  sudo nano sites-available/000-default.conf 
+  264  sudo apachectl -t
+  265  sudo systemctl start apache2
+  266  sudo nano /etc/nginx/sites-available/default 
+  267  sudo nano ports.conf sudo nginx -t
+  268  sudo nginx -t
+  269  sudo systemctl start nginx
+  270  sudo apt install libapache2-mod-php php -y
+  271  ll
+  272  tree
+  273  sudo apt install tree
+  274  tree
+  275  sudo apt install php-fpm
+  276  cd /etc/php/8.1/
+  277  ll
+  278  ls
+  279  cd ../
+  280  ls
+  281  ll
+  282  tree
+  283  ls /etc/
+  284  cd /etc/apache2/
+  285  ll
+  286  tree
+  287  nano mods-available/php8.1.conf 
+  288  cd /var/www/html/
+  289  ll
+  290  sudo nano info.php
+  291  cd /etc/php/8.1/
+  292  tree
+  293  nano ./fpm/pool.d/www.conf 
+  294  cd /etc/nginx/
+  295  sudo nano sites-enabled/default 
+  296  sudo nginx -t
+  297  sudo systemctl reload nginx
+  298  systemctl status php*
+  299  sudo apt install mysql-server -y
+  300  systemctl status mysql
+  301  sudo mysql -u root -p 
+  302  history
+  303  sudo apt-get update
+  304  sudo apt-get upgrade
+  305  cd
+  306  ls
+  307  sudo apt install nginx
+  308  history 
+  309  systemctl status nginx
+  310  systemctl status apache2
+  311  nano mods-available/php8.1.conf
+  312  nano /etc/apache2/mods-available/php8.1.conf 
+  313  nano /etc/nginx/nginx.conf
+  314  nano /etc/apache2/mods-enabled/php8.1.
+  315  nano /etc/apache2/mods-enabled/php8.1.conf 
+  316  nano /etc/nginx/nginx.conf
+  317  nano /etc/apache2/apache2.conf
+  318  sudo nano /etc/apache2/sites-enabled/000-default.conf
+  319  sudo nano /etc/nginx/sites-enabled/default
+  320  nano /etc/php8.1/fpm/pool.d
+  321  nano /etc/php/php8.1/fpm/pool.d
+  322  nano /etc/php/8.1/fpm/pool.d/www.conf 
+  323  nano /etc/apache2/mods-enabled/php8.1.conf 
+  324  sudo nano /etc/apache2/sites-enabled/000-default.conf
+  325  nano /etc/apache2/ports.conf 
+  326  sudo ss -ntlp
+  327  nano /etc/php/8.1/fpm/pool.d/www.conf 
+  328  nano /etc/nginx/nginx.conf
+  329  nano /etc/nginx/sites-enabled/default [B
+  330  systemctl status mysql
+  331  sudo mysql
+  332  sudo apt install phpmyadmin
+  333  mysql -u root -p
+  334  sudo mysql -u root -p
+  335  sudo systemctl restart apache2
+  336  sudo mysql
+  337  sudo reboot
+  338  sudo apt install phpmyadmin
+  339  phpmyadmin
+  340  sudo apt -y install php-mbstring
+  341  sudo reboot
+  342  sudo docker ps
+  343  sudo docker images
+  344  sudo docker ps
+  345  sudo docker images
+  346  exit
+  347  for n {1..3} do echo $USER done
+  348  for n in {1..3} do echo $USER done; exit
+  349  echo $USER
+  350  for n in {1..3}; do echo $USER done; exit
+  351  ls
+  352  ls ./te
+  353  ls ./testfolder/
+  354  ./testfolder/bin bash
+  355  history 
+  356  cat /proc/$$/status
+  357  cat /proc/$$/status | grep 'allowed'
+  358  lc
+  359  lxc
+  360  llxc-create
+  361  lxc-create
+  362  hostname
+  363  user
+  364  uname
+  365  uname -a
+  366  username
+  367  $user
+  368  $USER
+  369  cat $USER
+  370  echo $USER
+  371  cat cpu.stat
+  372  find cpu.stat
+  373  search cpu.stat
+  374  cat /etc/group
+  375  cat /etc/group | head
+  376  sudo su
+  377  ls -l
+  378  ls -l ~/
+  379  ls -l /var/log/
+  380  ls -l /var/log/ | head
+  381  cat /var/log/auth.log
+  382  clear
+  383  kj
+  384  sudo apt-get install lxc debootstrap bridge-utils lxc-templates
+  385  sudo apt-get install lxd-installer 
+  386  lxc storage list
+  387  lxd init
+  388  sudo lxd init
+  389  lxd init
+  390  lxc storage list
+  391  sudo ap-get install lxd
+  392  sudo apt-get install lxd
+  393  sudo apt-get update
+  394  sudo apt-get install lxd
+  395  sudo apt install lxd
+  396  lxc storage list
+  397  sudo apt update
+  398  lxc-create -n test123 -t ubuntu
+  399  lxc storage list
+  400  sudo lxc-create -n test123 -t ubuntu
+  401  lxc-create -n test123 -t ubuntu
+  402  sudo lxc-create -n test123 -t ubuntu
+  403  lxc-create -n test123 -t ubuntu
+  404  sudo lxc-create -n test123 -t ubuntu
+  405  lxc-create -n test123 -t ubuntu
+  406  ls /sys/fs/cgroup/
+  407  lxc start -n test1234
+  408  lxc-start -n test1234
+  409  sudo lxc-start -n test1234
+  410  free -m
+  411  lxc-start -n test1234
+  412  sudo apt update
+  413  apt-get install lxc debootstrap bridge-utils lxc-templates
+  414  sudo apt-get install lxc debootstrap bridge-utils lxc-templates
+  415  sudo apt-get install lxd-installer
+  416  lxd ini
+  417  lxd init
+  418  lxc storage list
+  419  lxc-start -n test123
+  420  sudo lxc-start -n test123
+  421  lxc-attach -n teat123
+  422  sudo lxc-attach -n teat123
+  423  sudo lxc-attach -n test123
+  424  lxc-stop -n test123
+  425  sudo lxc-stop -n test123
+  426  nano /var/lib/lxc/test123/config
+  427  sduo nano /var/lib/lxc/test123/config
+  428  sudo nano /var/lib/lxc/test123/config
+  429  sudo reboot
+  430  sudo lxc-attach -n teat123
+  431  sudo lxc-attach -n test123
+  432  lxc-ls -f
+  433  sudo lxc-ls -f
+  434  sudo lxc-create --name=con1 --template=ubuntu
+  435  sudo lxc-create -n con2 -t ubuntu --logfile=./con2.log
+  436  ls
+  437  cat con2.log 
+  438  sud cat con2.log 
+  439  sudo cat con2.log 
+  440  sudo lxc-attach -n con2
+  441  sudo lxc-attach -n con1
+  442  sudo lxc-start -n con2
+  443  sudo lxc-attach -n con1
+  444  sudo lxc-attach -n con2
+  445  sudo cat con2.log 
+  446  sudo nano /var/lib/lxc/con2/config
+  447  sudo reboot
+  448  curl www.google.com
+  449  sudo apt install curl
+  450  sudo apt-get update
+  451  sudo apt install curl
+  452  curl www.google.com
+  453  curl -I https://www.google.com
+  454  sudo apt update
+  455  sudo apt upgrade
+  456  docker
+  457  docker image
+  458  docker images
+  459  sudo docker images
+  460  docker ps -a
+  461  sudo docker ps -a
+  462  sudo docker ps
+  463  sudo docker ps -a
+  464  sudo docker ps
+  465  sudo docker ps -a
+  466  ps aux
+  467  sudo apt install docker-ce
+  468  sudo apt install docker
+  469  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+  470  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  471  echo "deb [signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  472  sudo apt update
+  473  sudo apt install docker-ce
+  474  sudo usermod -aG docker $USER
+  475  newgrp docker
+  476  docker --version 
+  477  docker run docker/whalesay cowsay Hello, Docker!
+  478  sudo docker run docker/whalesay cowsay Hello, Docker!
+  479  docker --version 
+  480  sudo reboot
+  481  cowsays
+  482  cowsay
+  483  sudo apt install cowsay
+  484  cowsay
+  485  cowsay "1212\ndfdfdf"
+  486  cowsay "1212 \n dfdfdf"
+  487  cowsay "1212 dfdfdf" "fgfg"
+  488  cowsay "1212 dfdfdf" \n "fgfg"
+  489  cowsay cbvcvbcb
+  490  docker images
+  491  docker rmi a788cdeb8cd9
+  492  docker images
+  493  docker rmi c6b84b685f35
+  494  docker images
+  495  docker rmi 692eb4a905c0
+  496  docker ps -a
+  497  docker stop c84c84c9b906
+  498  docker rmi 692eb4a905c0
+  499  docker ps -a
+  500  sudo docker stop c84c84c9b906
+  501  docker ps -a
+  502  docker ps
+  503  docker ps -a
+  504  docker system prune
+  505  docker ps
+  506  docker ps -a
+  507  docker images
+  508  docker system prune -a
+  509  docker images
+  510  docker images -a
+  511  ls
+  512  mkdir testdocker
+  513  ls
+  514  cd ./testdocker/
+  515  ls ../testfolder/
+  516  rm /home/jon/
+  517  rm /home/jon/testfolder/
+  518  rm /home/jon/testfolder/ -r
+  519  rm /home/jon/*
+  520  nano phonecont
+  521  docker build -t dockernotes
+  522  docker build -t dockernotes .
+  523  nano phonecont
+  524  nano dockernotes 
+  525  docker build -t dockernotes .
+  526  nano dockernotes 
+  527  docker build -t dockernotes .
+  528  docker images
+  529  docker image
+  530  docker images -a
+  531  docker build -t dockernotes1 .
+  532  nano dockernotes 
+  533  docker build -t dockernotes .
+  534  docker build -t dockernotes .
+  535  ls
+  536  docker build -t dockernotes -f ./dockernotes 
+  537  docker build -t dockernotes -f ./dockernotes .
+  538  ls
+  539  exit
+  540  sart x
+  541  start x
+  542  start X
+  543  startx
+  544  exit
+  545  netstat
+  546  exit
+  547  ls
+  548  sudo apt uodate
+  549  sudo apt update
+  550  sudo apt upgrade
+  551  ls
+  552  cat pets.txt
+  553  cat > pets.txt
+  554  ls
+  555  rm pets.txt 
+  556  ls
+  557  cat > Pets.txt
+  558  nano Pets.txt 
+  559  rm Pets.txt 
+  560  ls
+  561  histoey
+  562  history 
+  563  sudo nano /etc/apt/sources.list.d/ 
+  564  sudo nano /etc/apt/sources.list.d
+  565  sudo nano /etc/apt/sources.list
+  566  sudo apt update
+  567  sudo nano /etc/apt/sources.list
+  568  sudo apt update
+  569  sudo nano /etc/apt/sources.list
+  570  wget https://dev.mysql.com/get/mysql-apt-config_0.8.28-1_all.deb
+  571  ls
+  572  sudo dpkg -i mysql-apt-config_0.8.28-1_all.deb
+  573  wget http://archive.ubuntu.com/ubuntu/pool/universe/m/mc/mc_4.8.29-2_amd64.deb
+  574  sudo dpkg -i mc_4.8.29-2_amd64.de
+  575  sudo dpkg -i mc_4.8.29-2_amd64.deb
+  576  sudo apt remoove mc
+  577  sudo apt purge  mc
+  578  sudo dpkg -i mc_4.8.29-2_amd64.deb
+  579  mc
+  580  sudo apt remove mc
+  581  mc
+  582  sudo dpkg -i mc_4.8.29-2_amd64.deb
+  583  mc
+  584  sudo dpkg -r mc
+  585  mc
+  586  history >> Lyalin_Evgeniy_09-12-23_4544.txt
