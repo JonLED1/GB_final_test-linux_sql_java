@@ -18,15 +18,15 @@
 
 Лист "Pets"
 
-`ID	Name	     Type	    BirthDate	Commands`<br>
-`1 	Fido	     Dog	       2020-01-01	Sit, Stay, Fetch`<br>
-`2 	Whiskers	  Cat	       2019-05-15	Sit, Pounce`<br>
-`3    Hammy	     Hamster	 2021-03-10	Roll, Hide`<br>
-`4	   Buddy	     Dog	       2018-12-10	Sit, Paw, Bark`<br>
-`5	   Smudge	  Cat	       2020-02-20	Sit, Pounce, Scratch`<br>
-`6	   Peanut	  Hamster	2021-08-01	Roll, Spin`<br>
-`7	   Bella	     Dog	2019-11-11	Sit, Stay, Roll`<br>
-`8	   Oliver	  Cat	2020-06-30	Meow, Scratch, Jump`<br>
+`ID	Name	Type	BirthDate	Commands`<br>
+`1	Fido	Dog	2020-01-01	Sit, Stay, Fetch`<br>
+`2	Whiskers	Cat	2019-05-15	Sit, Pounce`<br>
+`3	Hammy	Hamster	2021-03-10	Roll, Hide`<br>
+`4	Buddy	Dog	2018-12-10	Sit, Paw, Bark`<br>
+`5	Smudge	Cat	2020-02-20	Sit, Pounce, Scratch`<br>
+`6	Peanut	Hamster	2021-08-01	Roll, Spin`<br>
+`7	Bella	Dog	2019-11-11	Sit, Stay, Roll`<br>
+`8	Oliver	Cat	2020-06-30	Meow, Scratch, Jump`<br>
 
  Лист "PackAnimals"
 
