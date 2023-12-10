@@ -123,7 +123,6 @@ public class PetRepository implements IRepository<Pet> {
 
     public List<String> getCommandsById (int petId, int commands_type){   
         
-        // commands type = 1  - получить команды, выполняемые питомцем, 2 - команды, выполнимые животным того рода, к которому относится питомец
 
         List <String> commands = new ArrayList <>();
         try {
