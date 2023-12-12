@@ -26,7 +26,7 @@ public class ConsoleView implements View <Pet> {
 
     @Override
     public <T> void printAll (List <T> list, Class <T> clazz) {
-        System.out.print("\033[H\033[J");
+        // System.out.print("\033[H\033[J");
         if (list.isEmpty())
             System.out.println("список пуст");
         else {

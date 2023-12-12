@@ -107,6 +107,7 @@ public class ConsoleMenu {
 
     private int menuChoicePet(Scanner in) {
         System.out.println("\nВведите номер животного, 0 для возврата в основное меню: ");
+        petController.getAllPet();
         while (true) {
             int id = in.nextInt();
             in.nextLine();
